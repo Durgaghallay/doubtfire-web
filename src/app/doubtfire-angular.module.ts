@@ -163,7 +163,7 @@ import { HeaderComponent } from './common/header/header.component';
 import { UnitDropdownComponent } from './common/header/unit-dropdown/unit-dropdown.component';
 import { TaskDropdownComponent } from './common/header/task-dropdown/task-dropdown.component';
 import { SplashScreenComponent } from './home/splash-screen/splash-screen.component';
-
+import {TeachingPeriodDetailsEditorComponent} from './admin/states/teaching-periods/teaching-period-edit/directives/teaching-period-details-editor/teaching-period-details-editor.component';
 @NgModule({
   // Components we declare
   declarations: [
@@ -220,6 +220,7 @@ import { SplashScreenComponent } from './home/splash-screen/splash-screen.compon
     UnitDropdownComponent,
     TaskDropdownComponent,
     SplashScreenComponent,
+    TeachingPeriodDetailsEditorComponent
   ],
   // Module Imports
   imports: [
